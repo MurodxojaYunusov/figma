@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-.container{
+.container {
     width: 1120px;
     margin: auto;
     display: flex;
@@ -11,16 +12,9 @@
     margin-top: 56px;
 }
 
-.list{
-    display: flex;
-    gap: 30px;
-}
 
-.list_box{
-    list-style: none;
-}
 
-.hello{
+.hello {
     font-family: "Red Hat Display";
     font-style: normal;
     font-weight: 500;
@@ -28,26 +22,63 @@
     line-height: 120%;
     color: #666666;
 }
-.btn{
-   background-color: purple;
-   
+
+.personal_name {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
+.free {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
 
+.btn1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #8643DC;
+    border-radius: 100px;
+    border: none;
+    padding: 14px 49px;
+    margin-top: 10px;
+}
 
+.katta_div {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    align-items: center;
 
+}
 
+.list_items {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-left: 250px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.list {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #25202F;
+}
 
