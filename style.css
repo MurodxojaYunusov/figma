@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+}
+
+.list_box{
+    list-style: none;
+}
+
+.hello{
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #666666;
+}
+.btn{
+   background-color: purple;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
